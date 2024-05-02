@@ -35,8 +35,27 @@ let myObj = {
     console.log("Hello world");
 
  }
-
  console.log(typeof heros)
+
+
+//  +++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), heap (non-primitive)
+
+let name = "harshShah"
+const repoCount = 50;
+
+console.log(name + repoCount + "value" );
+
+console.log('Hello my name is ${name} and my repo count is ${repoCount}')
+
+const gameName = new String('HarshShah')
+
+console.log(gameName[0]);
+console.log(gameName.__proto__);
+
+
+console.log(gameName)
 
 
 
