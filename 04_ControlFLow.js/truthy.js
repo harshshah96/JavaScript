@@ -40,13 +40,19 @@ const userEmail = [];
  
 // ++ Nullish Coalescing Operator (??) : null undefined
 
-let val1;
-// val1 = 5 ?? 10;
-val1 = null ?? 5;
-console.log(val1);
-val1 = undefined ?? 10;
-console.log(val1);
-val1 = null ?? undefined ?? null ?? 15 ;
-console.log(val1);
+// let val1;
+// // val1 = 5 ?? 10;
+// val1 = null ?? 5;
+// console.log(val1);
+// val1 = undefined ?? 10;
+// console.log(val1);
+// val1 = null ?? undefined ?? null ?? 15 ;
+// console.log(val1);
 
-// Nullish Coalescing Operator assignes the first value other than null or undefined.
+// NOTE : Nullish Coalescing Operator assignes the first value other than null or undefined.
+
+// ternary operator
+    // condition ? true : false;
+
+    const a=50
+    a>20 ? console.log("Greater than 20") : console.log("Less Than 20");
